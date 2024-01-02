@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "flowbite": "^2.2.1",
+    "mdb-react-ui-kit": "^7.0.0",
+    "next": "14.0.4",
+    "next-cloudinary": "^5.16.0",
+    "next-videos": "^1.4.1",
     "react": "^18",
+    "react-collapsed": "^4.1.2",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-fast-marquee": "^1.6.2",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.21.1",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

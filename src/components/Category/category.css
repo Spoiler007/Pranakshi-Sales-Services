@@ -1,0 +1,35 @@
+.garden{
+    background-image: url('/Images/gardening.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: 350px 330px;
+    background-size:contain ;
+    width: fit-content;
+ margin-left: 15px;
+}
+.indoor{
+    background-image: url('/Images/indoor.webp') ;
+    background-repeat: no-repeat;
+    background-size: 350px 330px;
+    background-size:contain ;
+    width: fit-content;
+    margin-left: 40px;
+    border-radius: 10px  ;
+}
+.outdoor{
+    background-image: url('/Images/outdoor.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: 350px 300px;
+    background-size:contain ;
+    overflow: hidden;
+    width: fit-content;
+    
+    margin-left: 25px;
+    border-radius: 10px  ;
+}
+
+@media screen and (max-width:1200) {
+    .garden{
+        background-size: 500px 400px;
+    }
+    
+}
