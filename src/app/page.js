@@ -10,17 +10,31 @@ import Testimonial from '@/components/Testimonial/Tesimonial'
 import Location from '@/components/Location/Location'
 import Contact from '@/components/Contact/Contact'
 import Footer from '@/components/Footer/Footer'
+import GotoTop from '@/components/GotoTop/GotoTop'
+
+import { useRef } from 'react'
+import { Stick } from 'next/font/google'
+import StickyChat from '@/components/StickyChat/StickyChat'
+
+
 export default function Home() {
+
+
+
+
   return (
-    <main className=" bg-gray-100">
-      <Navbar id="navbar" />
-      <Hero />
-      <Services />
-      <Gallery />
-      <Category />
-      <Testimonial />
-      <Location />
-      <Contact />
+    <main className="  ">
+  
+    <Navbar id="navbar" />
+    <Hero />
+    <Services />
+    <StickyChat/>
+    <Gallery />
+    <Category />
+    <Testimonial />
+    <Location />
+    <Contact />
+    <GotoTop />
       <Footer />
     </main>
   )

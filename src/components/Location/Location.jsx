@@ -16,7 +16,7 @@ const Location = () => {
                             <img src='Images/logo3.png' alt='logo3' className='xs:w-[180px] w-[100px] mx-auto' />
                             <h1 className='xs:text-2xl text-xl text-[gray]  font-semibold '>Pranakshi Sales & Services</h1>
                         </div>
-                        <p className='flex items-center text-gray-500 font-semibold font-outfit text-xl gap-2'><FcAlarmClock className='text-4xl' /><span className='text-greenlight'>Open : </span> 9:00 Am - 4:30 PM </p>
+                        <p className='flex items-center text-gray-500 font-semibold font-outfit text-xl gap-2'><FcAlarmClock className='text-4xl' /><span className='text-greenlight '>Open : </span> 9:00 Am - 4:30 PM </p>
                         <p className='flex items-center text-gray-500 font-semibold font-outfit text-xl gap-2'><CgCalendarDates className='text-4xl text-[brown]' /><span className='text-greenlight'>Close Date : </span> Sunday</p>
                         <p className='flex text-center text-gray-500 font-semibold font-outfit text-xl '><ImLocation2  className='text-9xl xm:text-6xl text-[brown]' />B-3/0/3 , Balaka Abasan , Action Area 1 , New Town , Kolkata-700156</p>
                     </div>

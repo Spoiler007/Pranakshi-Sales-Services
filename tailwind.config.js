@@ -12,8 +12,13 @@ module.exports = {
       yellowlight: '#D6CE15',
       yellowdark: '#A4A71E',
       greenlight: '#53900F',
+      //  greenlight: '#A7C957',
       greendark: '#1F6521',
-      primaryblack: '#1F2605'
+      // greendark: '#6A994E',
+      primaryblack: '#1F2605',
+      textColor: '#F2E8CF',
+      darkRed: '#BC4749',
+
       
     },
     extend: {

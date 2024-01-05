@@ -9,23 +9,38 @@ import { MdSupportAgent } from "react-icons/md";
 const Services = () => {
     return (
         <div id='services' className='flex flex-col justify-center items-center text-center w-[80%] mx-auto gap-14 py-20  '>
-            <div className='flex flex-col gap-5 mx-auto items-center text-center'>
-                <h1 className='text-5xl font-mono font-semibold text-[gray] underline-offset-4 underline'>Our Services</h1>
+            <div className='flex flex-col gap-5 mx-auto items-center text-center relative '>
+                <h1 className='text-5xl font-mono font-semibold text-greendark '>Our Services</h1>
                 <p className='text-2xl font-outfit w-[70%] font-semibold text-[gray]'> Explore our services designed to make your journey into the world of plants a delight, transforming your space with ease and expertise.</p>
             </div>
 
-            <div className='grid xl:grid-cols-4 sm:grid-cols-2 mx-auto gap-8 grid-cols-1'>
+            <div className='grid xl:grid-cols-4 sm:grid-cols-2 mx-auto gap-12 grid-cols-1'>
 
-                <div className='flex flex-col items-center text-center gap-5   shadow-xl shadow-greenlight  rounded-2xl py-6 px-3 bg-gradient-to-b from-[white] to-greenlight '>
-                    <PiPlantFill className='text-5xl text-greenlight' />
-                    <p className='text-3xl font-semibold text-yellowlight font-mono'>Large Assortment</p>
-                    <p className='w-[90%] text-xl font-outfit text-[white] font-semibold'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
+                <div className='font-outfit bg-greenlight flex flex-col  items-center justify-center px-6 py-7 rounded-tl-3xl rounded-br-3xl drop-shadow-md text-[#f3f5f7]'>
+                    <PiPlantFill className='text-5xl  text-[#f3f5f7]' />
+                    <p className='text-2xl text-yellowlight py-5'>Large Assortment</p>
+                    <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
                 </div>
-
+                <div className='font-outfit bg-greenlight flex flex-col items-center justify-center px-6 py-7 rounded-tl-3xl rounded-br-3xl drop-shadow-md text-[#f3f5f7]'>
+                    <SlBadge className='text-5xl  text-[#f3f5f7]' />
+                    <p className='text-2xl text-yellowlight py-5'>Quality</p>
+                    <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
+                </div>
+                <div className='font-outfit bg-greenlight flex flex-col items-center justify-center px-6 py-7 rounded-tl-3xl rounded-br-3xl drop-shadow-md text-[#f3f5f7]'>
+                    <LiaShippingFastSolid className='text-5xl  text-[#f3f5f7]' />
+                    <p className='text-2xl text-yellowlight py-5'>Free & Fast Shipping</p>
+                    <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
+                </div>
+                <div className='font-outfit bg-greenlight flex flex-col items-center justify-center px-6 py-7 rounded-tl-3xl rounded-br-3xl drop-shadow-md text-[#f3f5f7]'>
+                    <MdSupportAgent className='text-5xl  text-[#f3f5f7]' />
+                    <p className='text-2xl text-yellowlight py-5'>24/7 Customer Support</p>
+                    <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
+                </div>
+                {/*
                 <div className='flex flex-col items-center text-center gap-5  shadow-xl shadow-greenlight  rounded-2xl py-6 px-3 bg-gradient-to-b from-[white] to-greenlight '>
                     <SlBadge className='text-5xl text-greenlight'/>
-                    <p className='text-3xl font-semibold text-yellowlight font-mono'>Quality</p>
-                    <p className='w-[90%] font-outfit text-[white] text-xl font-semibold'>Every plant undergoes meticulous inspection, guaranteeing the delivery of only the healthiest and most vibrant green companions to your doorstep. Trust us for a flourishing and thriving addition to your space.</p>
+                    <p className='text-3xl font-semibold text-gray-500 font-mono'>Quality</p>
+                    <p className='w-[90%] font-outfit text-gray-200 text-xl font-semibold'>Every plant undergoes meticulous inspection, guaranteeing the delivery of only the healthiest and most vibrant green companions to your doorstep. Trust us for a flourishing and thriving addition to your space.</p>
                 </div>
 
                 <div className='flex flex-col items-center text-center gap-5  shadow-xl shadow-greenlight rounded-2xl py-6 px-3 bg-gradient-to-b from-[white] to-greenlight '>
@@ -39,7 +54,7 @@ const Services = () => {
                     <p className='text-2xl font-semibold text-yellowlight font-mono w-[80%]'>24/7 Customer Support</p>
                     <p className='w-[90%] font-outfit text-[white] text-xl font-semibold'>We work seven days a week and a lunch break. We will be glad to welcome you as our Buyer and thank you for your trust in us.</p>
                 </div>
-
+            */}
             </div>
         </div>
     )
