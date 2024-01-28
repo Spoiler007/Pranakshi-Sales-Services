@@ -11,11 +11,11 @@ import Location from '@/components/Location/Location'
 import Contact from '@/components/Contact/Contact'
 import Footer from '@/components/Footer/Footer'
 import GotoTop from '@/components/GotoTop/GotoTop'
-
+import { BrowserRouter } from 'react-router-dom';
 import { useRef } from 'react'
 import { Stick } from 'next/font/google'
 import StickyChat from '@/components/StickyChat/StickyChat'
-
+import Router from '../Routes/Router'
 
 export default function Home() {
 
@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <main className="  ">
-  
+   <BrowserRouter>
     <Navbar id="navbar" />
     <Hero />
     <Services />
@@ -35,7 +35,8 @@ export default function Home() {
     <Location />
     <Contact />
     <GotoTop />
-      <Footer />
+    <Footer />    
+   </BrowserRouter>
     </main>
   )
 }

@@ -55,9 +55,9 @@ const Contact = () => {
                 <div className="flex flex-col gap-8 mt-10">
                     <h1 className="text-xl text-[gray] font-semibold underline underline-offset-2">Social Media</h1>
                     <div className="flex flex-col gap-5 justify-center items-center">
-                        <a href="https://youtube.com/@PranakshiSalesService?si=rHi1YtfelV9Nny9A" target="__blank"  className="flex items-center gap-2"><IoLogoYoutube className="text-[#FF0000] text-2xl" /><span className="text-gray-500 font-semibold">You tube</span></a>
-                        <a href="https://www.facebook.com/profile.php?id=61554907633405" target="__blank"  className="flex items-center gap-2"><ImFacebook2 className="text-[blue] text-xl" /><span className="text-gray-500 font-semibold">Facebook</span></a>
-                        <a href="https://www.instagram.com/pranakshi.sales?utm_source=qr&igsh=MWlyczhhb3RsMTdpcQ==" target="__blank"  className="flex items-center gap-2"><TfiInstagram className="text-2xl text-greendark" /><span className="text-gray-500 font-semibold">Instagram</span></a>
+                        <a href="https://youtube.com/@PranakshiSalesService?si=rHi1YtfelV9Nny9A" target="__blank"  className="flex items-center gap-2"><img src="Images/icons8-youtube-64.png" className="w-[40px]"/><span className="text-gray-500 font-semibold">You tube</span></a>
+                        <a href="https://www.facebook.com/profile.php?id=61554907633405" target="__blank"  className="flex items-center gap-2"><img src="Images/icons8-facebook-64.png" className="w-[40px]"/><span className="text-gray-500 font-semibold">Facebook</span></a>
+                        <a href="https://www.instagram.com/pranakshi.sales?utm_source=qr&igsh=MWlyczhhb3RsMTdpcQ==" target="__blank"  className="flex items-center gap-2"><img src="Images/icons8-instagram-64.png" className="w-[40px]"/><span className="text-gray-500 font-semibold">Instagram</span></a>
 
                     </div>
                 </div>

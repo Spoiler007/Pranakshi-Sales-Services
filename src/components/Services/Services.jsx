@@ -16,22 +16,22 @@ const Services = () => {
 
             <div className='grid xl:grid-cols-4 sm:grid-cols-2 mx-auto gap-12 grid-cols-1'>
 
-                <div className='font-outfit bg-greenlight flex flex-col  items-center justify-center px-6 py-7 rounded-tl-3xl rounded-br-3xl drop-shadow-md text-[#f3f5f7]'>
+                <div className='font-outfit bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-greendark via-greenlight to-greendark rounded-tl-[50%] rounded-br-[30%] flex flex-col  items-center justify-center px-6 py-7  drop-shadow-md text-[#f3f5f7]'>
                     <PiPlantFill className='text-5xl  text-[#f3f5f7]' />
                     <p className='text-2xl text-yellowlight py-5'>Large Assortment</p>
                     <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
                 </div>
-                <div className='font-outfit bg-greenlight flex flex-col items-center justify-center px-6 py-7 rounded-tl-3xl rounded-br-3xl drop-shadow-md text-[#f3f5f7]'>
+                <div className='font-outfit bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-greendark via-greenlight to-greendark rounded-tl-[50%] rounded-br-[30%] flex flex-col items-center justify-center px-6 py-7  drop-shadow-md text-[#f3f5f7]'>
                     <SlBadge className='text-5xl  text-[#f3f5f7]' />
                     <p className='text-2xl text-yellowlight py-5'>Quality</p>
                     <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
                 </div>
-                <div className='font-outfit bg-greenlight flex flex-col items-center justify-center px-6 py-7 rounded-tl-3xl rounded-br-3xl drop-shadow-md text-[#f3f5f7]'>
+                <div className='font-outfit bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-greendark via-greenlight to-greendark rounded-tl-[50%] rounded-br-[30%] flex flex-col items-center justify-center px-6 py-7  drop-shadow-md text-[#f3f5f7]'>
                     <LiaShippingFastSolid className='text-5xl  text-[#f3f5f7]' />
                     <p className='text-2xl text-yellowlight py-5'>Free & Fast Shipping</p>
                     <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
                 </div>
-                <div className='font-outfit bg-greenlight flex flex-col items-center justify-center px-6 py-7 rounded-tl-3xl rounded-br-3xl drop-shadow-md text-[#f3f5f7]'>
+                <div className='font-outfit bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-greendark via-greenlight to-greendark rounded-tl-[50%] rounded-br-[30%] flex flex-col items-center justify-center px-6 py-7 drop-shadow-md text-[#f3f5f7]'>
                     <MdSupportAgent className='text-5xl  text-[#f3f5f7]' />
                     <p className='text-2xl text-yellowlight py-5'>24/7 Customer Support</p>
                     <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>

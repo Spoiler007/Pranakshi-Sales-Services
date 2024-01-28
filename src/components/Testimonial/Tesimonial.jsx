@@ -7,11 +7,8 @@ const Testimonial = () => {
     return (
         <div id='testimonials' className=''>
             <div className='w-[80%] mx-auto flex flex-col gap-5 mt-40'>
-                <p className=' text-[#8247FF] font-outfit text-xs border-[1px] border-[#8247ff33] rounded-lg w-28 py-1 flex '><span>🧡</span> TESTIMONIALS</p>
-
-                <p className='font-outfit font-bold text-6xl'>Hear from our<span className='text-[#FE8162] '> Satisfied</span> clients</p>
+                <p className='font-outfit font-bold text-5xl'>Hear from our<span className='text-[#FE8162] '> Satisfied</span> clients</p>
                 <p className='text-[#767575] font-inter w-[50%]  text-xl font-semibold'>Discover why our clients love working with us. Read their testimonials and learn how we has helped businesses.</p>
-
             </div>
 
 
