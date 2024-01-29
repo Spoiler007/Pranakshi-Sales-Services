@@ -10,8 +10,8 @@ const Category = () => {
     return (
         <div className='w-[80%] mx-auto flex flex-col py-20'>
             <h1 className='mx-auto py-10 text-4xl font-semibold text-gray-500'>Category</h1>
-            <div className='grid xl:grid-cols-3 mx-auto gap-10 grid-cols-1'>
-                <div className='relative xl:w-[350px] xl:h-[200px] w-[700px] h-[300px]' >
+            <div className='grid xl:grid-cols-3 mx-auto gap-10 grid-cols-1 w-[95%]'>
+                <div className='relative xl:w-[350px] mx-auto xl:h-[200px]  xm:w-[90%] xm:h-[300px]' >
                     <Image
                         src="/Images/gardening.jpeg"
                         fill={true}
@@ -33,7 +33,7 @@ const Category = () => {
                 </div>
 
 
-                <div className='relative w-[350px] h-[200px]' >
+                <div className='relative mx-auto xl:w-[350px] xl:h-[200px] w-[90%] h-[300px]' >
                     <Image
                         src="/Images/indoor.webp"
                         fill={true}
@@ -54,7 +54,7 @@ const Category = () => {
                 </div>
 
 
-                <div className='relative w-[350px] h-[200px]' >
+                <div className='relative mx-auto xl:w-[350px] xl:h-[200px] w-[90%] h-[300px]'>
                     <Image
                         src="/Images/outdoor.jpeg"
                         fill={true}

@@ -24,7 +24,6 @@ export default function Home() {
 
   return (
     <main className="  ">
-   <BrowserRouter>
     <Navbar id="navbar" />
     <Hero />
     <Services />
@@ -36,7 +35,7 @@ export default function Home() {
     <Contact />
     <GotoTop />
     <Footer />    
-   </BrowserRouter>
+
     </main>
   )
 }

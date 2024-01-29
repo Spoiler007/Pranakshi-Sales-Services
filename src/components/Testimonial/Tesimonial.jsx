@@ -6,18 +6,17 @@ import Marquee from "react-fast-marquee";
 const Testimonial = () => {
     return (
         <div id='testimonials' className=''>
-            <div className='w-[80%] mx-auto flex flex-col gap-5 mt-40'>
+            <div className='w-[80%] mx-auto text-center justify-center flex flex-col gap-5 mt-40'>
                 <p className='font-outfit font-bold text-5xl'>Hear from our<span className='text-[#FE8162] '> Satisfied</span> clients</p>
-                <p className='text-[#767575] font-inter w-[50%]  text-xl font-semibold'>Discover why our clients love working with us. Read their testimonials and learn how we has helped businesses.</p>
+                <p className='text-[#767575] font-inter mx-auto w-[50%] text-center text-xl font-semibold'>Discover why our clients love working with us. Read their testimonials and learn how we has helped businesses.</p>
             </div>
-
 
             <Marquee direction='right'>
                 <div className=" flex w-[1700px] ml-10 gap-10 my-4 mt-20">
 
-                    <div className=' border-2 border-[#EDEDFA] rounded-3xl flex flex-col w-1/4 px-5  py-10 gap-10 '>
-                        <p className='font-inter text-[#1c1c1c] text-lg font-semibold   w-[80%]'> "Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity."
-
+                    <div className='border-2 border-[#EDEDFA] rounded-3xl flex flex-col w-1/4 px-5  py-10 gap-10 '>
+                        <p className='font-inter text-[#1c1c1c] text-lg font-semibold   w-[80%]'> 
+                        "Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity."
                         </p>
 
                         <div className='flex items-center gap-3'>

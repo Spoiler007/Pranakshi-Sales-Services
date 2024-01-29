@@ -37,9 +37,9 @@ const Contact = () => {
             <div className="shadow-2xl shadow-gray-500 rounded-xl px-3  flex flex-col gap-5  bg-gradient-to-b from-[#A7C957] to-[#6A994E] sm:w-[430px] w-[300px] mx-auto">
                 <div className='grid grid-cols-1 mx-auto text-center  items-center'>
                     <img src='Images/logo.png' alt='logo3' className='w-[120px] mx-auto  rounded-xl' />
-                    <h1 className='text-xl text-greendark font-semibold'>Pranakshi Sales & Services</h1>
+                    <h1 className='text-2xl text-greendark font-semibold'>Pranakshi Sales & Services</h1>
                 </div>
-                <p className="w-[80%] mx-auto pb-5 text-white tracking-wider text-md font-semibold "> <span className="text-yellowlight">Pranakshi Sales & Services </span>is a leading sales and service company specializing in premium plants. We provide tailored solutions, from expert plant sales to comprehensive maintenance services. {<br/>}{<br/>} Our team is committed to creating thriving green environments, whether for homes, offices, or commercial spaces. Experience excellence in plant care with Pranakshi Sales & Services .</p>
+                <p className="w-[80%] mx-auto pb-5 text-white tracking-wider text-xl font-semibold "> <span className="text-yellowlight">Pranakshi Sales & Services </span>is a leading sales and service company specializing in premium plants. We provide tailored solutions, from expert plant sales to comprehensive maintenance services. {<br/>}{<br/>} Our team is committed to creating thriving green environments, whether for homes, offices, or commercial spaces. Experience excellence in plant care with Pranakshi Sales & Services .</p>
             </div>
 
             <div className="flex flex-col gap-8 items-center">
@@ -66,7 +66,7 @@ const Contact = () => {
             <div className="flex flex-col items-center ">
                 <h1 className="text-xl  text-[gray] font-bold text-transparent  bg-clip-text bg-gradient-to-r from-yellowlight to-yellowdark">Give Your valuable Feedback</h1>
                 <form className="flex pt-8 pb-14 flex-col border gap-4 rounded-xl mt-5 px-5 bg-gradient-to-b from-[#A7C957] to-[#6A994E]">
-                    <div className="flex flex-col gap-5 mx-auto">
+                    <div className="flex flex-col gap-5 mx-auto ">
                         <h2 className="text-xl text-white font-semibold text-center">Rate Our services </h2>
                         <div className="flex flex-row">
                             {stars.map((_, index) => {
@@ -88,9 +88,9 @@ const Contact = () => {
                             })}
                         </div>
                     </div>
-                    <input placeholder="Name" type="text" required className=" py-2 px-2 rounded-md  bg-gray-200" />
+                    <input placeholder="Name" type="text" required className=" py-2 px-2 rounded-md  bg-gray-200 placeholder:font-outfit" />
                     <input placeholder="Email" type="email" required className="py-2 px-2 rounded-md bg-gray-200" />
-                    <textarea placeholder="What's your experience?" required className="bg-gray-200 rounded-md pr-10 pl-2 pt-3 pb-10 h-min-[250px] w-[300px] text-gray-800 border-none" />
+                    <textarea placeholder="What's your experience?" required className="bg-gray-200 rounded-md pr-10 pl-2 pt-3 pb-10 h-min-[250px] w-[300px] text-gray-800 border-none placeholder:font-outfit" />
                     <button className=" mt-5 bg-transparent shadow-inner shadow-gray-500 text-gray-200 text-xl font-semibold py-2 rounded-md w-[300px] hover:animate-bounce hover:shadow-gray-500">Submit</button>
                 </form>
             </div>
