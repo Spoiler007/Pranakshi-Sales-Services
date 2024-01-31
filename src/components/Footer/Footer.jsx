@@ -13,4 +13,4 @@ const Footer = ()=> {
     </MDBFooter>
   );
 }
-export default Footer;
+export default Footer

@@ -15,12 +15,9 @@ import { BrowserRouter } from 'react-router-dom';
 import { useRef } from 'react'
 import { Stick } from 'next/font/google'
 import StickyChat from '@/components/StickyChat/StickyChat'
-import Router from '../Routes/Router'
+
 
 export default function Home() {
-
-
-
 
   return (
     <main className="  ">
