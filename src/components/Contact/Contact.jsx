@@ -39,12 +39,12 @@ const Contact = () => {
                     <img src='Images/logo.png' alt='logo3' className='w-[120px] mx-auto  rounded-xl' />
                     <h1 className='text-2xl text-greendark font-semibold'>Pranakshi Sales & Services</h1>
                 </div>
-                <p className="w-[80%] mx-auto pb-5 text-white tracking-wider text-xl font-semibold "> <span className="text-yellowlight">Pranakshi Sales & Services </span>is a leading sales and service company specializing in premium plants. We provide tailored solutions, from expert plant sales to comprehensive maintenance services. {<br/>}{<br/>} Our team is committed to creating thriving green environments, whether for homes, offices, or commercial spaces. Experience excellence in plant care with Pranakshi Sales & Services .</p>
+                <p className="w-[80%] font-outfit mx-auto pb-5 text-white  text-xl text-justify font-semibold "> <span className="text-yellowlight">Pranakshi Sales & Services </span>is a leading sales and service company specializing in premium plants. We provide tailored solutions, from expert plant sales to comprehensive maintenance services. <br/><br/> Our team is committed to creating thriving green environments, whether for homes, offices, or commercial spaces. Experience excellence in plant care with Pranakshi Sales & Services .</p>
             </div>
 
             <div className="flex flex-col gap-8 items-center">
-                <h1 className="text-xl font-semibold text-[gray] underline underline-offset-2">Importants Links</h1>
-                <div className="flex flex-col gap-5 justify-center items-center text-[gray] font-semibold ">
+                <h1 className="text-xl font-semibold text-[gray] font-outfit underline underline-offset-2">Importants Links</h1>
+                <div className="flex font-outfit flex-col gap-5 justify-center items-center text-[gray] font-semibold ">
                     <a href="#hero" id="hero" className="hover:underline-offset-4 hover:underline hover:text-yellowlight"> Home</a>
                     <a href="#services" id="services" className="hover:underline-offset-4 hover:underline hover:text-yellowlight"> Services</a>
                     <a href="#gallery" id="gallery" className="hover:underline-offset-4 hover:underline hover:text-yellowlight">Gallery</a>
@@ -52,7 +52,7 @@ const Contact = () => {
                     <a href="#contact" id="contact" className="hover:underline-offset-4 hover:underline hover:text-yellowlight">Contact Us</a>
                 </div>
 
-                <div className="flex flex-col gap-8 mt-10">
+                <div className="flex flex-col font-outfit gap-8 mt-10">
                     <h1 className="text-xl text-[gray] font-semibold underline underline-offset-2">Social Media</h1>
                     <div className="flex flex-col gap-5 justify-center items-center">
                         <a href="https://youtube.com/@PranakshiSalesService?si=rHi1YtfelV9Nny9A" target="__blank"  className="flex items-center gap-2"><img src="Images/icons8-youtube-64.png" className="w-[40px]"/><span className="text-gray-500 font-semibold">You tube</span></a>
@@ -63,7 +63,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col items-center ">
+            <div className="flex flex-col font-outfit items-center ">
                 <h1 className="text-xl  text-[gray] font-bold text-transparent  bg-clip-text bg-gradient-to-r from-yellowlight to-yellowdark">Give Your valuable Feedback</h1>
                 <form className="flex pt-8 pb-14 flex-col border gap-4 rounded-xl mt-5 px-5 bg-gradient-to-b from-[#A7C957] to-[#6A994E]"
                  action="https://formspree.io/f/xgegobdw"

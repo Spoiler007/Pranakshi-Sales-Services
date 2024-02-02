@@ -15,7 +15,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { useRef } from 'react'
 import { Stick } from 'next/font/google'
 import StickyChat from '@/components/StickyChat/StickyChat'
-
+import Welcome from '@/components/Welcome/Welcome'
 
 export default function Home() {
 
@@ -23,6 +23,7 @@ export default function Home() {
     <main className="  ">
     <Navbar id="navbar" />
     <Hero />
+    <Welcome/>
     <Services />
     <StickyChat/>
     <Gallery />

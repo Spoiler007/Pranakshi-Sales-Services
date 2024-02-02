@@ -15,22 +15,16 @@ const Galery = () => {
   const [isExpanded, setExpanded] = useState(false)
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded })
   const [items, setItems] = useState(menu);
-  const [items2, setItems2] = useState(menu2);
+ 
 
 
 
-  const filterItem = (categoryItem,categoryItem2) => {
+  const filterItem = (categoryItem) => {
     const updatedItems = menu.filter((currElem) => {
       return currElem.category == categoryItem;
     });
     setItems(updatedItems);
 
-    const updatedItems2 = menu2.filter((currElem2) => {
-      return currElem2.category == categoryItem2;
-    });
-    setItems2(updatedItems2);
-
-    
   }
 
   return (
@@ -46,8 +40,8 @@ const Galery = () => {
 
       <div className='grid grid-cols-1 xm:grid-cols-2 mx-auto w-[80%] gap-5 xl:grid-cols-4'>
         {
-          items.map((elem) => {
-            const {id, name, category, image } = elem;
+          items.slice(1, 25).map((elem) => {
+            const { id, name, category, image } = elem;
             return (
               <div className='overflow-hidden mx-auto w-fit rounded-md'>
                 <img src={image} alt='img' key={id} className='w-[300px] h-[200px]  hover:scale-110 transition duration-500 cursor-pointer' />
@@ -60,7 +54,7 @@ const Galery = () => {
         <section {...getCollapseProps()}>
           <div className='grid grid-cols-1 xm:grid-cols-2 xl:grid-cols-4 mx-auto w-[80%] gap-5 mt-5'>
             {
-              items2.map((element) => {
+              items.slice(26,45).map((element) => {
                 const { id, name, category, image } = element;
                 return (
                   <div className='overflow-hidden mx-auto w-fit rounded-md'>
@@ -73,7 +67,6 @@ const Galery = () => {
           </div>
 
         </section>
-
 
         <div className='flex justify-end '
           {...getToggleProps({

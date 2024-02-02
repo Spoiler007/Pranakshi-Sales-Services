@@ -2,13 +2,13 @@
  export const menu = [
     {
       id:1,
-      image:'/Images/pexels1.jpg',
+      image:'https://res.cloudinary.com/daar1gcw1/image/upload/v1706709149/rawjbpuotuwkphokziyw.jpg',
       name:'',
-      category:'garden'
+      category:'indoor'
     },
     {
       id:2,
-      image:'/Images/pexels2.jpg',
+      image:'https://res.cloudinary.com/daar1gcw1/image/upload/v1706816907/indoor/rc1fgvfprg2xqpddvcvq.jpg',
       name:'',
       category:'indoor'
     },
@@ -26,7 +26,7 @@
     },
     {
       id:5,
-      image:'/Images/pexels5.jpg',
+      image:'https://res.cloudinary.com/daar1gcw1/image/upload/v1706816907/indoor/qghnkqydcpn7rwf3wwkh.jpg',
       name:'',
       category:'indoor'
     },
@@ -44,7 +44,7 @@
     },
     {
       id:8,
-      image:'/Images/pexels8.jpg',
+      image:'https://res.cloudinary.com/daar1gcw1/image/upload/v1706816906/indoor/ww7pjllvzniuorzdoexy.jpg',
       name:'',
       category:'indoor'
     },
@@ -62,7 +62,7 @@
     },
     {
       id:11,
-      image:'/Images/pexels11.jpg',
+      image:'https://res.cloudinary.com/daar1gcw1/image/upload/v1706816906/indoor/f4iz5ffuosywjwi3hkik.jpg',
       name:'',
       category:'indoor'
     },
@@ -72,82 +72,206 @@
       name:'',
       category:'outdoor'
     },
-   
-    
-  ]
-  
-
-  export const menu2 = [
     {
       id:13,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816906/indoor/kjvnuokdni3ry1jzoavn.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:14,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816906/indoor/by4nklxlyqfnnlxxvxky.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:15,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816903/indoor/ft5s9q1lhuphvnofrk3v.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:16,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816902/indoor/wi20eulibf25m9hczgtj.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:17,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816901/indoor/evli1u3bdowr3hvucz6b.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:18,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816899/indoor/m3duyv8ebryrucpzmf6v.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:19,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816899/indoor/w4drajbxoa1xtey0tx1a.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:20,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816899/indoor/rcwdhrorrcga5tka3ypx.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:21,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816899/indoor/lkwoqrnmr1ncxfuvw5dc.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:22,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816899/indoor/txwdqjsxll1lsffyucta.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:23,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816898/indoor/laa1sbttu2gmfoghetae.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:24,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816897/indoor/iyrg9hixu6agjpeyzdft.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:25,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816897/indoor/szx5alehspyd4njvub0o.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:26,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816897/indoor/zf0eyfichavgugbwun1c.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:27,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816896/indoor/fd3atoi564caejhhodwg.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:28,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816896/indoor/kbph4voe0oyvgy8r3kaq.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:29,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816895/indoor/qq36u5f6umo8dl1wlazb.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:30,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816895/indoor/ukn6equngfyt1qfdpecl.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:31,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816895/indoor/jk45limafllkieqb9res.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:32,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816895/indoor/tqaszrddpvv76muq2xes.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+      id:33,
+      image:"https://res.cloudinary.com/daar1gcw1/image/upload/v1706816895/indoor/fsnv3savg5nrrbzuaos1.jpg",
+      name:"",
+      category:"indoor"
+    },
+    {
+    id:34,
       image:'/Images/pexels13.jpeg',
       name:'',
       category:'garden'
     },
     {
-      id:14,
+      id:35,
       image:'/Images/pexels14.jpeg',
       name:'',
       category:'indoor'
     },
     {
-      id:15,
+      id:36,
       image:'/Images/pexels15.jpeg',
       name:'',
       category:'outdoor'
     },
     {
-      id:16,
+      id:37,
       image:'/Images/pexels16.jpeg',
       name:'',
       category:'garden'
     },
     {
-      id:17,
+      id:38,
       image:'/Images/pexels17.jpeg',
       name:'',
       category:'indoor'
     },
     {
-      id:18,
+      id:39,
       image:'/Images/pexels18.jpeg',
       name:'',
       category:'outdoor'
     },
     {
-      id:19,
+      id:40,
       image:'/Images/pexels19.jpeg',
       name:'',
       category:'garden'
     },
     {
-      id:20,
+      id:41,
       image:'/Images/pexels20.jpeg',
       name:'',
       category:'indoor'
     },
     {
-      id:21,
+      id:42,
       image:'/Images/pexels21.jpeg',
       name:'',
       category:'outdoor'
     },
     {
-      id:22,
+      id:43,
       image:'/Images/pexels22.jpeg',
       name:'',
       category:'garden'
     },
     {
-      id:23,
+      id:44,
       image:'/Images/pexels23.jpeg',
       name:'',
       category:'indoor'
     },
     {
-      id:24,
+      id:45,
       image:'/Images/pexels24.jpeg',
       name:'',
       category:'outdoor'
-    },
+    }
+    
   ]
+  
+
+  

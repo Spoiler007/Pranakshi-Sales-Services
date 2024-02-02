@@ -9,17 +9,17 @@ const Category = () => {
     
 
     return (
-        <div className='w-[80%] mx-auto flex flex-col py-20'>
-            <h1 className='mx-auto py-10 text-4xl font-semibold text-gray-500'>Category</h1>
+        <div className='w-[80%] mx-auto flex flex-col py-20' id='category'>
+            <h1 className='mx-auto py-10 text-5xl font-semibold text-greendark'>Category</h1>
             <div className='grid xl:grid-cols-3 mx-auto gap-10 grid-cols-1 w-[95%]'>
-                <div className='relative xl:w-[350px] mx-auto xl:h-[200px]  xm:w-[90%] xm:h-[300px]' >
+                <div className='relative xl:w-[350px] mx-auto xl:h-[200px]  w-[95%] h-[300px] ' >
                     <Image
                         src="/Images/gardening.jpeg"
                         fill={true}
                         alt={"Background Image"}
                         className=''
                     />
-                    <h1 className='z-10 absolute  bg-yellowlight px-5 py-1 font-semibold text-white'>Gardening</h1>
+                    <h1 className='z-10 absolute bg-yellowlight rounded-br-lg px-5 py-1 font-semibold text-white'>Gardening</h1>
                     <div className='w-[80%] pt-5'
                         style={{
                             position: "absolute",
@@ -27,21 +27,19 @@ const Category = () => {
                             left: "50%",
                             transform: "translate(-50%, -50%)",
                             zIndex: 1,
-                           
                         }}
                     >
-                    <Link href="/gardening" className='text-white  underline-offset-1 underline text-xl font-mono font-semibold'>Level up your gardening game and turn your green space into a thriving masterpiece!</Link>
+                    <Link href="/gardening" className='text-white  underline-offset-1 underline text-xl  font-mono font-semibold'>Level up your gardening game and turn your green space into a thriving masterpiece!</Link>
                     </div>
                 </div>
 
-
-                <div className='relative mx-auto xl:w-[350px] xl:h-[200px] w-[90%] h-[300px]' >
+                <div className='relative mx-auto xl:w-[350px] xl:h-[200px] w-[95%] h-[300px]' >
                     <Image
                         src="/Images/indoor.webp"
                         fill={true}
                         alt={"Background Image"}
                     />
-                    <h1 className='z-10 absolute bg-yellowlight px-5 py-1 font-semibold text-white'>Indoor</h1>
+                    <h1 className='z-10 absolute bg-yellowlight rounded-br-lg px-5 py-1 font-semibold text-white'>Indoor</h1>
                     <div className='w-[80%]'
                         style={{
                             position: "absolute",
@@ -55,15 +53,14 @@ const Category = () => {
                     </div>
                 </div>
 
-
-                <div className='relative mx-auto xl:w-[350px] xl:h-[200px] w-[90%] h-[300px]'>
+                <div className='relative mx-auto xl:w-[350px] xl:h-[200px] w-[95%] h-[300px]'>
                     <Image
                         src="/Images/outdoor.jpeg"
                         fill={true}
                         alt={"Background Image"}
                     />
-                    <h1 className='z-10 absolute bg-yellowlight px-5 py-1 font-semibold text-white'>Outdoor</h1>
-                    <div className='w-[80%] pt-5'
+                    <h1 className='z-10 absolute bg-yellowlight rounded-br-lg px-5 py-1 font-semibold text-white'>Outdoor</h1>
+                    <div className='w-[80%]'
                         style={{
                             position: "absolute",
                             top: "50%",
@@ -72,13 +69,11 @@ const Category = () => {
                             zIndex: 1,
                         }}
                     >
-                          <Link href="/outdoor" className='text-white underline-offset-1 underline text-xl font-mono font-semibold'>Unlock outdoor plant magic – elevate your green paradise!</Link>
+                        <Link href="/outdoor" className='text-white text-xl underline-offset-1 underline font-mono font-semibold'>Step into the world of outdoor plant enchantment and unleash the secret to vibrant gardens</Link>
                     </div>
                 </div>
 
             </div>
-
-
         </div>
     )
 }

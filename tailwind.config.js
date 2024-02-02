@@ -25,7 +25,7 @@ module.exports = {
       fontFamily: {
         outfit: ['Outfit', "sans-serif"],
         inter: ['Inter', "sans-serif"],
-        sans: ["Inter", "sans-serif"]
+        sans: ["Inter", "sans-serif"],
       },
 
       screens: {
