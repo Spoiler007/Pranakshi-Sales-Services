@@ -9,8 +9,9 @@ const Category = () => {
     
 
     return (
-        <div className='w-[80%] mx-auto flex flex-col py-20' id='category'>
-            <h1 className='mx-auto py-10 text-5xl font-semibold text-greendark'>Category</h1>
+        <div className='w-[80%] gap-7 mx-auto flex flex-col py-20' id='category'>
+            <h1 className='mx-auto  text-5xl font-semibold text-greendark'>Category</h1>
+            <p className='w-[70%] text-center font-semibold text-gray-500 mx-auto text-2xl font-outfit'>Explore our curated plant categories, tailored for indoor and outdoor gardening enthusiasts. Delight in 'Green Haven's' selection, featuring lush options for both interior sanctuaries and outdoor spaces.</p>
             <div className='grid xl:grid-cols-3 mx-auto gap-10 grid-cols-1 w-[95%]'>
                 <div className='relative xl:w-[350px] mx-auto xl:h-[200px]  w-[95%] h-[300px] ' >
                     <Image

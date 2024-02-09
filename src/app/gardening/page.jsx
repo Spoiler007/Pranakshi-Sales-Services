@@ -25,7 +25,7 @@ const Gardening = () => {
             <StickyChat />
             <Stickysocial />
             <div className=' '>
-                <div className="flex border-2 px-10 shadow-gray-200 rounded-bl-2xl rounded-br-2xl shadow-xl w-[85%] bg-gray-100 mx-auto gap-8  text-center items-center justify-between">
+                <div className="flex border-2 px-10 shadow-gray-200 rounded-bl-2xl rounded-br-2xl shadow-xl w-[85%]  mx-auto gap-8  text-center items-center justify-between">
                     <div className=' flex py-2'>
 
                         <img src='/Images/logo2.png' alt='logo' className='md:w-[170px] w-[100px]' />

@@ -15,7 +15,7 @@ const Indoor = () => {
             <GotoTop />
             <StickyChat />
             <Stickysocial />
-            <div className="flex border-2 px-10 shadow-gray-200 rounded-bl-2xl rounded-br-2xl shadow-xl w-[85%] bg-gray-100 mx-auto gap-8  text-center items-center justify-between">
+            <div className="flex border-2 px-10 shadow-gray-200 rounded-bl-2xl rounded-br-2xl shadow-xl w-[85%]  mx-auto gap-8  text-center items-center justify-between">
                 <div className=' flex py-2'>
 
                     <img src='/Images/logo2.png' alt='logo' className='md:w-[170px] w-[100px]' />
@@ -38,7 +38,7 @@ const Indoor = () => {
                     <h1 className='mx-auto md:text-6xl text-3xl font-bold text-greenlight '>Indoor Plants</h1>
                     <p className='w-[80%]  mx-auto text-center md:text-xl font-semibold font-outfit text-gray-600'>Indoor plants should be an essential component of every interior design. Greenery brightens up indoor spaces and is known to have mood-boosting qualities.
 
-                        Indoor plants are popular because they are relatively easy to take care of, provide health benefits and can be used in a variety of indoor décor themes.
+                        Indoor plants are popular because they are relatively easy to take care of, provide health benefits and can be used in a variety of indoor decor themes.
                         <br /> <br />
                         <img src='/Images/ind1.jpeg' alt='ind1' className='w-full  max-h-[80vh] mx-auto' />
                         <br />

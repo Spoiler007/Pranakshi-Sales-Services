@@ -16,25 +16,25 @@ const Services = () => {
 
             <div className='grid xl:grid-cols-4 sm:grid-cols-2 mx-auto gap-12 grid-cols-1'>
 
-                <div className='font-outfit bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-greendark via-greenlight to-greendark rounded-tl-[30%] rounded-br-[30%] flex flex-col  items-center justify-center px-6 py-7  drop-shadow-md text-[#f3f5f7]'>
+                <div className='font-outfit  bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-greendark via-greenlight to-greendark rounded-tl-[30%] rounded-br-[30%] flex flex-col  items-center justify-center px-6 py-7  drop-shadow-md text-[#f3f5f7]'>
                     <PiPlantFill className='text-5xl  text-[#f3f5f7]' />
                     <p className='text-2xl text-yellowlight py-5'>Large Assortment</p>
-                    <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
+                    <p className='text-base'>Discover a diverse selection of lush greenery and exotic plants, catering to all tastes. Our carefully curated assortment adds unique beauty to your space.</p>
                 </div>
                 <div className='font-outfit bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-greendark via-greenlight to-greendark rounded-tl-[30%] rounded-br-[30%] flex flex-col items-center justify-center px-6 py-7  drop-shadow-md text-[#f3f5f7]'>
                     <SlBadge className='text-5xl  text-[#f3f5f7]' />
                     <p className='text-2xl text-yellowlight py-5'>Quality</p>
-                    <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
+                    <p className='text-base'>Elevate your surroundings with unparalleled plant quality. Sourced from trusted growers, each leaf, petal, and stem reflects our commitment to excellence.</p>
                 </div>
                 <div className='font-outfit bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-greendark via-greenlight to-greendark rounded-tl-[30%] rounded-br-[30%] flex flex-col items-center justify-center px-6 py-7  drop-shadow-md text-[#f3f5f7]'>
                     <LiaShippingFastSolid className='text-5xl  text-[#f3f5f7]' />
                     <p className='text-2xl text-yellowlight py-5'>Free & Fast Shipping</p>
-                    <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
+                    <p className='text-base'>Enjoy seamless, complimentary shipping for all orders. With efficient logistics, your chosen plants will reach your doorstep swiftly and securely.</p>
                 </div>
                 <div className='font-outfit bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-greendark via-greenlight to-greendark rounded-tl-[30%] rounded-br-[30%] flex flex-col items-center justify-center px-6 py-7 drop-shadow-md text-[#f3f5f7]'>
                     <MdSupportAgent className='text-5xl  text-[#f3f5f7]' />
                     <p className='text-2xl text-yellowlight py-5'>24/7 Customer Support</p>
-                    <p className='text-base'>We offer our customer more than 15,000 items of natural and artificial flower,trees and many accessories for history.</p>
+                    <p className='text-base'>Access dedicated support anytime. Our experts are ready to assist with plant care, selection advice, or post-purchase guidance, ensuring a thriving indoor garden journey.</p>
                 </div>
                 {/*
                 <div className='flex flex-col items-center text-center gap-5  shadow-xl shadow-greenlight  rounded-2xl py-6 px-3 bg-gradient-to-b from-[white] to-greenlight '>

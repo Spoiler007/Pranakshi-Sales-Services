@@ -16,11 +16,10 @@ const Outdoor = () => {
             <GotoTop />
             <StickyChat />
             <Stickysocial />
-            <div className="flex border-2 px-10 shadow-gray-200 rounded-bl-2xl rounded-br-2xl shadow-xl w-[85%] bg-gray-100 mx-auto gap-8  text-center items-center justify-between">
+            <div className="flex border-2 px-10 shadow-gray-200 rounded-bl-2xl rounded-br-2xl shadow-xl w-[85%]  mx-auto gap-8  text-center items-center justify-between">
                 <div className=' flex py-2'>
 
                     <img src='/Images/logo2.png' alt='logo' className='md:w-[170px] w-[100px]' />
-
                     <h1 className='text-center my-auto md:text-2xl mt-8 md:mt-14 font-semibold text-gray-500'> Sales<span className='text-greenlight text-4xl'> & </span>Services</h1>
                 </div>
                 <div className=' hidden xl:block'>
