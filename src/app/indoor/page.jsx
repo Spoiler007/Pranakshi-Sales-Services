@@ -36,7 +36,7 @@ const Indoor = () => {
             <div>
                 <div className='flex flex-col gap-10 py-10'>
                     <h1 className='mx-auto md:text-6xl text-3xl font-bold text-greenlight '>Indoor Plants</h1>
-                    <p className='w-[80%]  mx-auto text-center md:text-xl font-semibold font-outfit text-gray-600'>Indoor plants should be an essential component of every interior design. Greenery brightens up indoor spaces and is known to have mood-boosting qualities.
+                    <p className='w-[90%] md:w-[80%] mx-auto text-center md:text-xl font-semibold font-outfit text-gray-600'>Indoor plants should be an essential component of every interior design. Greenery brightens up indoor spaces and is known to have mood-boosting qualities.
 
                         Indoor plants are popular because they are relatively easy to take care of, provide health benefits and can be used in a variety of indoor decor themes.
                         <br /> <br />
@@ -50,13 +50,13 @@ const Indoor = () => {
                 </div>
 
                 <div className='flex flex-col gap-10 py-14'>
-                    <div className='flex flex-col mx-auto w-[70%] gap-3'>
+                    <div className='flex flex-col mx-auto w-[90%] md:w-[80%] gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>What are indoor plants ?</h1>
                         <p className='text-xl  font-outfit'>
                             Indoor plants are plants that grow indoors. There are a variety of tropical plants, like palms, that thrive in indoor environments.
                         </p>
                     </div>
-                    <div className='flex flex-col mx-auto w-[70%] gap-3'>
+                    <div className='flex flex-col mx-auto w-[90%] md:w-[80%] gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>How do you plant indoor plants ?</h1>
                         <p className='text-xl font-outfit'>
                             Most of the time, indoor plants are already in containers, so there is no need to plant them. There are typically only two reasons you need to plant an indoor plant.
@@ -65,7 +65,7 @@ const Indoor = () => {
                             <br /><span className='font-semibold'>(ii). </span>If you wanted to grow bulbs indoors, then you will need to plant the bulbs yourself.
                         </p>
                     </div>
-                    <div className='flex flex-col mx-auto w-[70%] gap-3'>
+                    <div className='flex flex-col mx-auto w-[90%] md:w-[80%] gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>How much light do indoor plants need ?</h1>
                         <p className='text-xl font-outfit'>
                             Succulents and cacti need continuous, daily sunlight. Plants with foliage need roughly 8 hours of light per day. The amount of light depends on the plants you are growing, so we suggest doing research on the specific plants you are growing.
@@ -73,7 +73,7 @@ const Indoor = () => {
                         <img src='/Images/ind2.webp' alt='ind2' className='max-h-[70vh]' />
                     </div>
 
-                    <div className='flex flex-col mx-auto w-[70%] gap-3'>
+                    <div className='flex flex-col mx-auto w-[90%] md:w-[80%] gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>What qualities make for a good indoor plant ?</h1>
                         <div className='flex gap-10 xl:flex-row flex-col-reverse '>
                             <p className='text-xl font-outfit'>
@@ -91,7 +91,7 @@ const Indoor = () => {
 
 
 
-                    <div className='flex flex-col mx-auto w-[70%] gap-3'>
+                    <div className='flex flex-col mx-auto w-[90%] md:w-[80%] gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>Which indoor plants require low light ?</h1>
                         <div className='flex gap-10 font-outfit text-xl flex-col '>
 
@@ -128,7 +128,7 @@ const Indoor = () => {
                     </div>
 
 
-                    <div className='w-[70%] grid grid-cols-1 xl:grid-cols-2 mx-auto gap-5 '>
+                    <div className='w-[90%] md:w-[80%] grid grid-cols-1 xl:grid-cols-2 mx-auto gap-5 '>
                         <div className='flex flex-col px-5 py-5 mx-auto border border-greenlight gap-3'>
                             <h1 className='text-3xl font-bold font-mono'>Which indoor plants are the easiest to take care of ?</h1>
                             <p className='text-xl font-outfit'>
@@ -187,7 +187,7 @@ const Indoor = () => {
 
                     </div> */}
 
-                    <div className='flex flex-col w-[70%]  py-5 mx-auto  gap-3'>
+                    <div className='flex flex-col w-[90%] md:w-[80%] py-5 mx-auto  gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>How do you re-pot indoor plants ?</h1>
                         <div className='flex flex-col gap-5 xl:flex-row'>
                         <p className='text-xl font-outfit mx-auto'>
@@ -205,7 +205,7 @@ const Indoor = () => {
                     </div>
 
 
-                    <div className='flex flex-col mx-auto w-[70%] gap-3'>
+                    <div className='flex flex-col mx-auto w-[90%] md:w-[80%] gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>How long do indoor plants typically live ?</h1>
                         <p className='text-xl font-outfit'>
                             On average, indoor house plants last 2-5 years. After that, plants stop thriving and it’s best to invest in another plant.
@@ -213,7 +213,7 @@ const Indoor = () => {
 
                     </div>
 
-                    <div className='flex flex-col mx-auto w-[70%] gap-3'>
+                    <div className='flex flex-col mx-auto w-[90%] md:w-[80%] gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>Which interior plants improve air quality the most ?</h1>
                         <p className='text-xl font-outfit'>
                             All plants can act as air purifiers but these plants are more beneficial than others.
@@ -223,7 +223,7 @@ const Indoor = () => {
                             <br /><span className='font-semibold'>(iii). </span>Bamboo Palm
                         </p>
                     </div>
-                    <div className='flex flex-col mx-auto w-[70%] gap-3'>
+                    <div className='flex flex-col mx-auto w-[90%] md:w-[80%] gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>What are some of the common reasons indoor plants die ?</h1>
                         <p className='text-xl font-outfit'>
                             Some of the most common reasons plants die are:
@@ -235,14 +235,14 @@ const Indoor = () => {
                     </div>
 
 
-                    <div className='flex flex-col mx-auto w-[70%] gap-3'>
+                    <div className='flex flex-col mx-auto w-[90%] md:w-[80%] gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>How do indoor plants affect people’s moods ?</h1>
                         <p className='text-xl font-outfit'>
                             People are often surprised at how beneficial indoor plants are. Not only do plants clean the air, but they also reduce noise levels and stress in the workplace. For more information on the benefits of indoor plants.
                         </p>
 
                     </div>
-                    <div className='flex flex-col mx-auto w-[70%] gap-3'>
+                    <div className='flex flex-col mx-auto w-[90%] md:w-[80%] gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>Are indoor plants expensive ?</h1>
                         <p className='text-xl font-outfit'>
                             Indoor plants are known for being very affordable. The smaller the plant, the less expensive it will be. We do warn customers from buying plants from large retailers. Oftentimes, large retailers will sell coconut or palm trees, which are large indoor plants sold at a relatively low price.
@@ -253,7 +253,7 @@ const Indoor = () => {
                     </div>
 
 
-                    <div className='flex flex-col w-[70%]  py-5 mx-auto  gap-3'>
+                    <div className='flex flex-col w-[90%] md:w-[80%] py-5 mx-auto  gap-3'>
                         <h1 className='text-3xl font-bold font-mono'>How do I know when to water my indoor plant ?</h1>
                         <div className='flex flex-col gap-5 xl:flex-row'>
                         <p className='text-xl font-outfit mx-auto'>

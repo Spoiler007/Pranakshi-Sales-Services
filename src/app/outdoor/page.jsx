@@ -36,7 +36,7 @@ const Outdoor = () => {
             <div>
                 <div className='flex flex-col gap-10 py-10'>
                     <h1 className='mx-auto md:text-6xl text-3xl font-bold text-greenlight '>Outdoor Plants</h1>
-                    <p className='w-[80%]  mx-auto text-center md:text-xl font-semibold font-outfit text-gray-600'>Indoor plants should be an essential component of every interior design. Greenery brightens up indoor spaces and is known to have mood-boosting qualities.
+                    <p className='w-[90%] md:w-[80%] mx-auto text-center md:text-xl font-semibold font-outfit text-gray-600'>Indoor plants should be an essential component of every interior design. Greenery brightens up indoor spaces and is known to have mood-boosting qualities.
                         Trees are a crucial part of our ecosystem across the planet. Trees offer necessary resources to protect us from harsh weather conditions, clean our air, and offer enjoyment. We should all consider planting trees as a massive investment. How well that investment is, depends on many factors, including the kind of tree grown, its location, and the care offered.
                         <br />
                         Getting your new tree off to a healthy beginning will help the tree mature to its full size and ensure that it will provide economic, environmental, and social benefits throughout its lifetime.
@@ -52,7 +52,7 @@ const Outdoor = () => {
                     </p>
                 </div>
 
-                <div className='flex flex-col mx-auto w-[70%] gap-3'>
+                <div className='flex flex-col mx-auto w-[90%] md:w-[80%] gap-3'>
                     <h1 className='text-3xl font-bold font-mono'>Planning</h1>
                     <div className='flex gap-10 xl:flex-row flex-col-reverse '>
                         <p className='text-xl font-outfit'>
@@ -67,7 +67,7 @@ const Outdoor = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col py-5 mx-auto w-[70%] gap-3'>
+                <div className='flex flex-col py-5 mx-auto w-[90%] md:w-[80%] gap-3'>
                     <h1 className='text-3xl font-bold font-mono'>Assessing the Planting Area – Below Ground</h1>
                     <p className='text-xl font-outfit mx-auto'>
                         <span className='font-semibold'>(i). Surfaces or Surrounding Buildings :-</span>Asphalt, concrete, mirrored, and other building surfaces increase the reflected and reradiated heat load on a tree and cause more rapid water loss from its leaves. Therefore, if one of these surfaces is present, you might need to go for a different tree species.
@@ -77,7 +77,7 @@ const Outdoor = () => {
                         <br /><span className='font-semibold'>(v). Drainage :-</span>Poor drainage caused by compaction, soils, or underground obstacles can be estimated easily. First, dig the dirt to a depth of 12-14 inches. If there is grey mottling or a foul odor, that indicates poor drainage.
                     </p>
                 </div>
-                <div className='flex flex-col py-5 mx-auto w-[70%] gap-3'>
+                <div className='flex flex-col py-5 mx-auto w-[90%] md:w-[80%] gap-3'>
                     <h1 className='text-3xl font-bold font-mono'>Planting</h1>
                     <p className='text-xl font-outfit mx-auto'>
                         It has been said that anyone can plant a tree. While this may be true, not everyone knows how to plant a tree properly. Below are some points to be kept in mind:
@@ -87,7 +87,7 @@ const Outdoor = () => {
                         <br /><span className='font-semibold'>(iii). Temporary Storage :-</span>Plant your tree as soon as possible. If you must store it before planting, place it on the north side of a building away from direct sunlight.
                     </p>
                 </div>
-                <div className='flex flex-col py-5 mx-auto w-[70%] gap-3'>
+                <div className='flex flex-col py-5 mx-auto w-[90%] md:w-[80%] gap-3'>
                     <h1 className='text-3xl font-bold font-mono'>You can follow the below-mentioned steps to help your tree set quickly at its new location:</h1>
                     <p className='text-xl font-outfit mx-auto'>
                         <span className='font-semibold'>(i). </span>The Trunk flare is where the trunk expands at the base. Make sure the trunk flare is partially visible after the tree is planted.
@@ -100,7 +100,7 @@ const Outdoor = () => {
                         <br /><span className='font-semibold'>(viii). </span>Keep in mind the follow-up care. Always keep the soil moist by watering at least once a week, barring rain, and often during windy or hot weather.
                     </p>
                 </div>
-                <div className='flex flex-col py-5 mx-auto w-[70%] gap-3'>
+                <div className='flex flex-col py-5 mx-auto w-[90%] md:w-[80%] gap-3'>
                     <h1 className='text-3xl font-bold font-mono'>Challenges</h1>
                     <p className='text-xl font-outfit mx-auto'>
                         <span className='font-semibold'>(i). Land set up for planting trees :-</span>This is a challenge that many organizations face while planting trees on the set premises. Hence, it’s best to consult professionals like Nelda for the same. We do the soil test, hole digging, and fulfill other requirements to grow as many trees as possible.
@@ -111,7 +111,7 @@ const Outdoor = () => {
                     </p>
                 </div>
 
-                <div className='flex flex-col py-5 mx-auto w-[70%] gap-3'>
+                <div className='flex flex-col py-5 mx-auto w-[90%] md:w-[80%] gap-3'>
                     <h1 className='text-3xl font-bold font-mono'>How to keep your new tree alive and fresh!</h1>
                     <p className='text-xl font-outfit mx-auto'>
                         Newly planted trees require routine and thorough watering, particularly during the dry summer months. Water the trees daily for at least three years after planting. Soil and weather conditions and the amount of competing grass around the trees dictate how much water to give and how often. In general, trees require an equivalent of 1 inch of rainfall per week from June through September.
@@ -126,7 +126,7 @@ const Outdoor = () => {
 
                     </p>
                 </div>
-                <div className='flex flex-col py-5 mx-auto w-[70%] gap-3'>
+                <div className='flex flex-col py-5 mx-auto w-[90%] md:w-[80%] gap-3'>
                     <h1 className='text-3xl font-bold font-mono'>Importance of Planting Trees </h1>
                     <p className='text-xl font-outfit mx-auto'>
                         Since the very beginning, trees have given us the gift of life’s essentials, such as food and oxygen. Many generations passed, and we discovered many other uses of trees and exploited them for our survival. To begin with, the wood from the trees was used as fuel, and humans consumed the fruits. The shade was used to escape heat and fire to escape cold.

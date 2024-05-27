@@ -47,11 +47,11 @@ const Gardening = () => {
 
             <div className='flex flex-col gap-10 py-10'>
                 <h1 className='mx-auto md:text-6xl text-3xl font-bold text-greenlight '>Gardening</h1>
-                <p className='w-[70%] mx-auto text-center md:text-2xl font-semibold font-mono text-gray-600'>Starting to build a garden can be both exciting and daunting. It all starts with a sad patch of grass and as you keep growing, it transforms into a beautiful garden with flowers, fruit trees, veggie beds, raised beds, and garden art.</p>
+                <p className='w-[90%] md:w-[80%] mx-auto text-center md:text-2xl font-semibold font-mono text-gray-600'>Starting to build a garden can be both exciting and daunting. It all starts with a sad patch of grass and as you keep growing, it transforms into a beautiful garden with flowers, fruit trees, veggie beds, raised beds, and garden art.</p>
                 <img src='/Images/garden1.webp' alt='garden1' className='w-[90%] max-h-[70vh] mx-auto' />
             </div>
-            <div className='w-[70%] mx-auto gap-14 flex flex-col py-10'>
-                <h1 className='w-[70%] text-center mx-auto text-xl font-semibold text-greendark font-outfit'>Garden beautifies your home and is an excellent way to spend your time after work. If you’re new to gardening, start building your garden with these easy to follow steps:</h1>
+            <div className='w-[90%] md:w-[80%] mx-auto gap-14 flex flex-col py-10'>
+                <h1 className='w-[90%] md:w-[80%] text-center mx-auto text-xl font-semibold text-greendark font-outfit'>Garden beautifies your home and is an excellent way to spend your time after work. If you’re new to gardening, start building your garden with these easy to follow steps:</h1>
                 <div className='flex flex-col gap-3'>
                     <h1 className='text-2xl font-bold font-mono'>1.Pick the right spot</h1>
                     <p className='text-xl font-outfit'>It is always better to take small steps towards big wins. Pick a small space to start building your garden.
