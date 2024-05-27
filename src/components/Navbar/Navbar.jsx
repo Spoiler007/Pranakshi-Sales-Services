@@ -73,7 +73,7 @@ const Navbar = () => {
                     <div className="flex flex-col items-center z-20 justify-center gap-10 text-2xl font-semibold  pt-8">
                         {
                             menus.map((menu) => {
-                                return <a key={menu.name} href={menu.link} className="border-none rounded-lg w-full py-2 bg-black/50 hover:text-yellowlight font-mono text-white text-center mx-auto">{menu.name}</a>
+                                return <a key={menu.name} href={menu.link} className="border  rounded-lg w-full py-2 bg-black/50 hover:text-yellowlight font-mono text-white text-center mx-auto">{menu.name}</a>
                             })
                         }
                         <div className=" text-greenlight backdrop-blur-sm bg-black/20 rounded-xl px-5 py-2 font-semibold  border-2 border-yellowlight font-mono hover:border-2 flex gap-2 items-center"> <PiPhoneCall className="text-4xl text-greenlight " /> 24/7 Support</div>
