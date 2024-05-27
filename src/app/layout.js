@@ -1,4 +1,5 @@
 
+
 import { Inter } from 'next/font/google'
 import './globals.css'
 import GotoTop from '@/components/GotoTop/GotoTop'

@@ -13,7 +13,8 @@ const Location = () => {
                     <div className='flex flex-col gap-5 py-10'>
                         <div className='grid sm:grid-cols-2 grid-cols-1 pb-5 items-center mx-auto sm:w-[70%]'>
                             <img src='Images/logo3.png' alt='logo3' className='xs:w-[180px] w-[100px] mx-auto' />
-                            <h1 className='xs:text-2xl text-xl text-[gray]  font-semibold '>Pranakshi Sales & Services</h1>
+                            <h1 className='xs:text-2xl text-xl text-[gray] text-center 
+                             font-semibold '>Pranakshi Sales & Services</h1>
                         </div>
                         <p className='flex items-center text-gray-500 font-semibold font-outfit text-xl gap-2'><FcAlarmClock className='text-4xl'/><span className='text-greenlight '>Open : </span> 9:00 Am - 4:30 PM </p>
                         <p className='flex items-center text-gray-500 font-semibold font-outfit text-xl gap-2'><CgCalendarDates className='text-4xl text-[brown]' /><span className='text-greenlight'>Close Date : </span> Sunday</p>

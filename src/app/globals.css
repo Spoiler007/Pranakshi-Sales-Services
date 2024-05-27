@@ -10,10 +10,12 @@
   left: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+ 
 }
 body{
   scroll-behavior: smooth;
   background-color: rgb(253, 250, 244);
+  
 }
 
 

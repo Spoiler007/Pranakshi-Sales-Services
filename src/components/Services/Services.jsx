@@ -10,8 +10,8 @@ const Services = () => {
     return (
         <div id='services' className='flex flex-col justify-center items-center text-center w-[80%] mx-auto gap-14 py-20  '>
             <div className='flex flex-col gap-5 mx-auto items-center text-center relative '>
-                <h1 className='text-5xl font-mono font-semibold text-greendark '>Our Services</h1>
-                <p className='text-2xl font-outfit w-[70%] font-semibold text-[gray]'> Explore our services designed to make your journey into the world of plants a delight, transforming your space with ease and expertise.</p>
+                <h1 className='text-4xl sm:text-5xl font-mono font-semibold text-[#FE8162]  '>Our Services</h1>
+                <p className='sm:text-2xl font-outfit sm:w-[70%] font-semibold text-[gray]'> Explore our services designed to make your journey into the world of plants a delight, transforming your space with ease and expertise.</p>
             </div>
 
             <div className='grid xl:grid-cols-4 sm:grid-cols-2 mx-auto gap-12 grid-cols-1'>

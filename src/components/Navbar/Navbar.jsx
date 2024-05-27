@@ -68,7 +68,7 @@ const Navbar = () => {
                 >
                     <div className="flex items-center justify-between  ">
                         <div className="flex items-center justify-center font-bold text-lg "><img src="/Images/logo2.png" alt="logo" height={100} width={130} className="mr-2" /> <span className="md:inline font-mono xs:text-2xl text-center text-greenlight mt-10">Sales & Services</span></div>
-                        <div className="xl:hidden text-4xl text-red-800 cursor-pointer" onClick={handleNavbarClose}><FiX /></div>
+                        <div className="xl:hidden mb-16  text-4xl border border-yellowlight rounded-sm text-red-800 cursor-pointer" onClick={handleNavbarClose}><FiX /></div>
                     </div>
                     <div className="flex flex-col items-center z-20 justify-center gap-10 text-2xl font-semibold  pt-8">
                         {
@@ -80,7 +80,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 :
-                <div className={` ${!showNav ? "-translate-y-20" : "translate-y-0"} transition-all duration-500 fixed border-none shadow-gray-500 z-50 w-full bg-gradient-to-b from-greendark to-greenlight shadow-2xl  flex items-center justify-between py-3  px-16`} key={"close"}>
+                <div className={` ${!showNav ? "-translate-y-20" : "translate-y-0"} transition-all duration-500 fixed border-none shadow-gray-500 z-50 w-full bg-gradient-to-b from-greendark to-greenlight shadow-2xl  flex items-center justify-between py-3 px-5 sm:px-16`} key={"close"}>
                     <div className="logo flex  items-center justify-center font-semibold text-lg font-outfit"><img src="/Images/logo2.png" alt="logo" height={90} width={130} className="mr-2 border bg-white/70 backdrop-blur-sm  rounded-xl" /> <span className="md:inline font-mono text-yellowlight mt-10 sm:flex hidden text-2xl">Sales & Services</span></div>
                     <div className="2xl:gap-8 text-xl font-semibold text-[white] items-center hidden xl:flex">
                         {

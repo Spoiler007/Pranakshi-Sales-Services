@@ -30,12 +30,12 @@ const Galery = () => {
   return (
 
     <div id='gallery' className='flex flex-col'>
-      <h1 className='mx-auto py-10 text-greendark text-4xl font-semibold'>Gallery</h1>
+      <h1 className='mx-auto py-10 text-greendark text-3xl sm:text-5xl font-semibold'>Gallery</h1>
       <div className='grid grid-cols-2 md:grid-cols-4 mx-auto gap-7 py-10 '>
-        <button className=' px-8 py-2 rounded-md  shadow-inner focus:animate-bounce shadow-greenlight text-2xl font-semibold font-mono text-greenlight' onClick={() => filterItem('garden')}>Garden</button>
-        <button className=' px-8 py-2 rounded-md  shadow-inner focus:animate-bounce duration-75 shadow-greenlight text-2xl font-semibold font-mono text-greenlight' onClick={() => filterItem('indoor')}>Indoor</button>
-        <button className=' px-8 py-2 rounded-md  shadow-inner focus:animate-bounce duration-75 shadow-greenlight text-2xl font-semibold font-mono text-greenlight' onClick={() => filterItem('outdoor')}>Outdoor</button>
-        <button className=' px-8 py-2 rounded-md  shadow-inner focus:animate-bounce duration-75 shadow-greenlight text-2xl font-semibold font-mono text-greenlight' onClick={() => setItems(menu)}>All</button>
+        <button className='px-4 sm:px-8 py-2 rounded-md  shadow-inner focus:animate-bounce shadow-greenlight text-2xl font-semibold font-mono text-greenlight' onClick={() => filterItem('garden')}>Garden</button>
+        <button className='px-4 sm:px-8 py-2 rounded-md  shadow-inner focus:animate-bounce duration-75 shadow-greenlight text-2xl font-semibold font-mono text-greenlight' onClick={() => filterItem('indoor')}>Indoor</button>
+        <button className='px-4 sm:px-8 py-2 rounded-md  shadow-inner focus:animate-bounce duration-75 shadow-greenlight text-2xl font-semibold font-mono text-greenlight' onClick={() => filterItem('outdoor')}>Outdoor</button>
+        <button className='px-4 sm:px-8 py-2 rounded-md  shadow-inner focus:animate-bounce duration-75 shadow-greenlight text-2xl font-semibold font-mono text-greenlight' onClick={() => setItems(menu)}>All</button>
       </div>
 
       <div className='grid grid-cols-1 xm:grid-cols-2 mx-auto w-[80%] gap-5 xl:grid-cols-4'>
