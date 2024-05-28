@@ -4,16 +4,16 @@ import './category.css'
 import Link from 'next/link'
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+// import 'swiper/css';
+// import 'swiper/css/pagination';
+// import 'swiper/css/navigation';
 
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+// import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 const Category = () => {
@@ -24,8 +24,8 @@ const Category = () => {
             <h1 className='mx-auto text-3xl sm:text-5xl font-semibold text-[#FE8162] '>Category</h1>
             <p className='sm:w-[70%] text-center font-semibold text-gray-500 mx-auto sm:text-2xl font-outfit'>Explore our curated plant categories, tailored for indoor and outdoor gardening enthusiasts. Delight in 'Green Haven's' selection, featuring lush options for both interior sanctuaries and outdoor spaces.</p>
             {/* <div className='grid xl:grid-cols-3 mx-auto gap-10 grid-cols-1 w-[95%]'> */}
-            <div className='flex mx-auto w-[95%] sm:scale-100 scale-110 gap-10'>
-                <Swiper
+            <div className='flex flex-col mt-10 mx-auto w-[95%] sm:scale-100 scale-110 gap-10'>
+                {/* <Swiper
                     spaceBetween={50}
                     centeredSlides={true}
                     slidesPerView={1}
@@ -34,15 +34,12 @@ const Category = () => {
                         delay: 3000,
                         disableOnInteraction: false,
                     }}
-                    // pagination={{
-                    //     clickable: true,
-                    // }}
-                    // navigation={true}
+                   
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
-                >
+                > */}
 
-                    <SwiperSlide>
+                    {/* <SwiperSlide> */}
                         <div className='relative mx-auto xl:w-[1050px] xl:h-[450px]  h-[250px] w-[95%] ' >
                             <Image
                                 src="/Images/garden0.jpg"
@@ -63,9 +60,9 @@ const Category = () => {
                                 <Link href="/gardening" className='text-white underline-offset-1 underline text-xl sm:text-2xl  font-mono font-semibold'>Level up your gardening game and turn your green space into a thriving masterpiece!</Link>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    {/* </SwiperSlide> */}
 
-                    <SwiperSlide>
+                    {/* <SwiperSlide> */}
                         <div className='relative mx-auto xl:w-[1050px] xl:h-[450px]  w-[95%] h-[250px]' >
                             <Image
                                 src="/Images/indoor.webp"
@@ -86,9 +83,9 @@ const Category = () => {
                                 <Link href="/indoor" className='text-white underline-offset-1 underline text-xl sm:text-2xl font-mono font-semibold'>Transform your space with indoor plant magic – master the art of plant care!</Link>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    {/* </SwiperSlide> */}
 
-                    <SwiperSlide>
+                    {/* <SwiperSlide> */}
 
                         <div className='relative mx-auto xl:w-[1050px] xl:h-[450px]  w-[95%] h-[250px]'>
                             <Image
@@ -110,8 +107,8 @@ const Category = () => {
                                 <Link href="/outdoor" className='text-white text-xl sm:text-2xl underline-offset-1 underline font-mono font-semibold'>Step into the world of outdoor plant enchantment and unleash the secret to vibrant gardens</Link>
                             </div>
                         </div>
-                    </SwiperSlide>
-                </Swiper>
+                    {/* </SwiperSlide> */}
+                {/* </Swiper> */}
             </div>
         </div>
     )
