@@ -45,7 +45,7 @@ const Category = () => {
                                 src="/Images/garden0.jpg"
                                 fill={true}
                                 alt={"Background Image"}
-                                className='rounded-xl '
+                                className='rounded-xl blur-[2px]'
                             />
                             <h1 className='z-10 absolute bg-yellowlight rounded-br-lg sm:px-10 px-5 sm:text-xl py-1 font-semibold text-white'>Gardening</h1>
                             <div className='w-[80%] pt-5'
@@ -68,7 +68,7 @@ const Category = () => {
                                 src="/Images/indoor.webp"
                                 fill={true}
                                 alt={"Background Image"}
-                                className='rounded-xl'
+                                className='rounded-xl blur-[2px]'
                             />
                             <h1 className='z-10 absolute bg-yellowlight rounded-br-lg px-5 sm:px-10 sm:text-xl py-1 font-semibold text-white'>Indoor</h1>
                             <div className='w-[80%]'
@@ -92,7 +92,7 @@ const Category = () => {
                                 src="/Images/outdoor0.jpg"
                                 fill={true}
                                 alt={"Background Image"}
-                                className='rounded-xl'
+                                className='rounded-xl blur-[2px]'
                             />
                             <h1 className='z-10 absolute bg-yellowlight rounded-br-lg px-5 sm:px-10 py-1 font-semibold sm:text-xl text-white'>Outdoor</h1>
                             <div className='w-[80%]'
