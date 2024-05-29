@@ -25,19 +25,19 @@ const Gardening = () => {
             <StickyChat />
             <Stickysocial />
             <div className=' '>
-                <div className="flex border-2 px-10 shadow-gray-200 rounded-bl-2xl rounded-br-2xl shadow-xl w-[85%]  mx-auto gap-8  text-center items-center justify-between">
+                <div className="flex border-2 bg-gradient-to-b from-greenlight to-greendark px-10 shadow-gray-200 rounded-bl-2xl rounded-br-2xl shadow-xl w-[85%]  mx-auto gap-8  text-center items-center justify-between">
                     <div className=' flex py-2'>
 
                         <img src='/Images/logo2.png' alt='logo' className='md:w-[170px] w-[100px]' />
 
-                        <h1 className='text-center my-auto md:text-2xl mt-8 md:mt-14 font-semibold text-gray-500'> Sales<span className='text-greenlight text-4xl'> & </span>Services</h1>
+                        <h1 className='text-center my-auto md:text-2xl mt-8 md:mt-14 font-semibold text-gray-400'> Sales<span className='text-yellowlight text-4xl'> & </span>Services</h1>
                     </div>
                     <div className=' hidden xl:block'>
                         <div className="flex xl:visible gap-5 justify-center items-center">
-                            <h1 className="text-xl text-[gray]  font-semibold underline underline-offset-2">Follow us on :</h1>
-                            <a href="https://youtube.com/@PranakshiSalesService?si=rHi1YtfelV9Nny9A" target="__blank" className="flex items-center gap-2"><img src="Images/icons8-youtube-64.png" className="w-[40px]" /><span className="text-gray-500 font-semibold">You tube</span></a>
-                            <a href="https://www.facebook.com/profile.php?id=61554907633405" target="__blank" className="flex items-center gap-2"><img src="Images/icons8-facebook-64.png" className="w-[40px]" /><span className="text-gray-500 font-semibold">Facebook</span></a>
-                            <a href="https://www.instagram.com/pranakshi.sales?utm_source=qr&igsh=MWlyczhhb3RsMTdpcQ==" target="__blank" className="flex items-center gap-2"><img src="Images/icons8-instagram-64.png" className="w-[40px]" /><span className="text-gray-500 font-semibold">Instagram</span></a>
+                            <h1 className="text-xl text-gray-300  font-semibold underline underline-offset-2">Follow us on :</h1>
+                            <a href="https://youtube.com/@PranakshiSalesService?si=rHi1YtfelV9Nny9A" target="__blank" className="flex items-center gap-2"><img src="Images/icons8-youtube-64.png" className="w-[40px]" /><span className="text-gray-300 font-semibold">You tube</span></a>
+                            <a href="https://www.facebook.com/profile.php?id=61554907633405" target="__blank" className="flex items-center gap-2"><img src="Images/icons8-facebook-64.png" className="w-[40px]" /><span className="text-gray-300 font-semibold">Facebook</span></a>
+                            <a href="https://www.instagram.com/pranakshi.sales?utm_source=qr&igsh=MWlyczhhb3RsMTdpcQ==" target="__blank" className="flex items-center gap-2"><img src="Images/icons8-instagram-64.png" className="w-[40px]" /><span className="text-gray-300 font-semibold">Instagram</span></a>
 
                         </div>
                     </div>
