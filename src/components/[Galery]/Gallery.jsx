@@ -40,7 +40,7 @@ const Galery = () => {
 
       <div className='grid grid-cols-1 xm:grid-cols-2 mx-auto w-[80%] gap-5 xl:grid-cols-4'>
         {
-          items.slice(1, 25).map((elem) => {
+          items.slice(1, 21).map((elem) => {
             const { id, name, category, image } = elem;
             return (
               <div className='overflow-hidden mx-auto w-fit rounded-md'>
@@ -54,7 +54,7 @@ const Galery = () => {
         <section {...getCollapseProps()}>
           <div className='grid grid-cols-1 xm:grid-cols-2 xl:grid-cols-4 mx-auto w-[80%] gap-5 mt-5'>
             {
-              items.slice(26,45).map((element) => {
+              items.slice(22,45).map((element) => {
                 const { id, name, category, image } = element;
                 return (
                   <div className='overflow-hidden mx-auto w-fit rounded-md'>

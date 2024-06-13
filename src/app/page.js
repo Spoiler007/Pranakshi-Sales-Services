@@ -22,7 +22,8 @@ export default function Home() {
   return (
     <main className="  ">
     <Navbar id="navbar" />
-    <Hero />
+    {/* <Hero /> */}
+    <Hero2/>
     <Welcome/>
     <Services />
     <StickyChat/>

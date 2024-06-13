@@ -40,7 +40,7 @@ const scrollup = () =>{
 }
 return (
     
- <div className='flex items-center text-center my-auto  icon-style justify-center  fixed  cursor-pointer text-white mt-[82vh]   ml-[3%]  z-20' onClick={scrollup}>
+ <div className='flex items-center text-center my-auto  icon-style justify-center  fixed  cursor-pointer text-white mt-[87vh]   ml-[3%]  z-20' onClick={scrollup}>
    {backtoTop && (
    <img src='Images/uparrow.png' alt='' className='z-20 border-transparent w-20 h-20 border-none  my-auto '/>
 

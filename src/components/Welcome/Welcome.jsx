@@ -3,7 +3,7 @@ import React from 'react'
 
 const Welcome = () => {
     return (
-        <div className='flex flex-col mt-24' id='home'>
+        <div className='flex flex-col mt-10' id='home'>
                 <img src='/Images/welcome.png' alt='welcome' className='xm:w-[300px] w-[200px] mx-auto'/>
             <div className='flex flex-col text-center w-[80%] sm:w-[70%] py-5 mx-auto  gap-3'>
                 {/* <h1 className='text-3xl font-bold font-mono text-green-600'> Welcome</h1> */}
